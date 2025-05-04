@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>vocabulary practice</title>
     <style>
         body {
@@ -55,8 +56,12 @@
     <div class="container">
         <input type="text" id="wordInput" placeholder="Enter word" autocorrect="off" autocapitalize="none" spellcheck="false">
         <br>
-        <button id="playButton" class="button"></button>
-        <button id="showAnswerButton" class="button"></button>
+        <button id="playButton" class="button">
+            <i class="fa-solid fa-headphones fa-2xl" style="color: #5dac79;"></i>
+        </button>
+        <button id="showAnswerButton" class="button">
+            <i class="fa-solid fa-question fa-2xl" style="color: #5686b8;"></i>
+        </button>
         <div id="feedback" class="feedback"></div>
     </div>
 
